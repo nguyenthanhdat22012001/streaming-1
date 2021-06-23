@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Stream</title>
+</head>
+<body>
+    <video id="localStream" width="300" controls></video>
+    <br>
+    <video id="friendStream" width="300" controls></video>
+    <br>
+    <style>
+        #outgoing {
+          width: 600px;
+          word-wrap: break-word;
+          white-space: normal;
+        }
+      </style>
+      <form>
+        <textarea id="incoming"></textarea>
+        <button type="submit">submit</button>
+      </form>
+      <pre id="outgoing"></pre>
+
+    <script src="bundle.js"> </script>
+</body>
+</html>
